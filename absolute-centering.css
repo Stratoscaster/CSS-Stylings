@@ -1,0 +1,25 @@
+/*
+    Absolute-center will center an element within its container. Width & height must be set,
+    you can remove them from .absolute-center and put them into a different class to have different
+    widths and heights on different elements.
+
+*/
+.absolute-center {
+    /* Must set absolute width/height */
+    height: 800px;
+    width: 600px;
+
+
+    /*   Centering Styling  */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0; /* Aligns Vertically */
+    left: 0;
+    right: 0; /* Aligns Horizontally */
+
+    /*  Prevent div from overflowing main window */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
